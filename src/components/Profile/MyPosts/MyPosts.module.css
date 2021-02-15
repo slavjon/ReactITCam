@@ -1,0 +1,28 @@
+.post_wrap {
+    padding: 5px;
+    border: 1px solid #000;
+}
+
+.new__post-wrap {
+    position: relative;
+}
+
+.new__post_wrap textarea {
+    margin: 15px 0;
+    padding: 10px;
+    max-width: 50%;
+    width: 100%;
+    display: block;
+    resize: none;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.new__post_wrap button {
+    display: block;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 10px;
+    background: rgb(99, 201, 96);
+    margin-bottom: 25px;
+}

@@ -1,0 +1,22 @@
+.App_aside {
+    grid-area: s;
+    background: #ccc;
+}
+
+.App_aside ul {
+    list-style-type: none;
+}
+
+.App_aside ul li {
+    margin-bottom: 8px;
+}
+
+.App_aside ul li a {
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+}
+
+.App_aside ul li a.activeLink {
+    color: #fff;
+}

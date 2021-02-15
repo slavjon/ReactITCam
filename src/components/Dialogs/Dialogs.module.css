@@ -1,0 +1,51 @@
+.dialogs__wrap {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+}
+
+.dialogs__items {
+    background: rgb(165, 165, 165);
+}
+
+.dialog__item {
+    border-bottom: 1px solid #000;
+}
+
+.dialog__item a {
+    display: block;
+    padding: 10px;
+    color: #000;
+}
+
+.dialog__item a.activeLink {
+    display: block;
+    padding: 10px;
+    font-weight: bold;
+    color: #fff;
+    background: #222;
+}
+
+.messages__wrap {
+    padding: 10px;
+}
+
+.messages__wrap textarea {
+    margin-top: 15px;
+    padding: 10px;
+    max-width: 50%;
+    width: 100%;
+    display: block;
+    resize: none;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.send__btn {
+    display: block;
+    padding: 10px;
+    margin: 15px 0;
+}
